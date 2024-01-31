@@ -1,0 +1,2 @@
+# trainingmation
+Training automation example
