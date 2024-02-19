@@ -7,7 +7,9 @@ from datetime import date
 class Database():
     
     def __init__(self):
-        self.path = r"/home/pi/Documents/Attendance/db.sqlite"
+        #self.path = r"/home/pi/Documents/Attendance/db.sqlite"
+        self.path = r"/home/pi/Documents/Attendance/trainingmation/py/raspberrypiDisplay/db.sqlite"
+
         
     def create_connection(self):
         """ create a database connection to the SQLite database
